@@ -8,7 +8,7 @@
  * This class--along with SavingsAccount, CheckingAccount, and
  * TimeDepositAccount--demonstrates inheritance. Keeps track of a bank account.
  * 
- * @author Scot Drysdale on 4/23/00. Modified 1/8/12
+ * @author Scott Drysdale on 4/23/00. Modified 1/8/12
  */
 public class BankAccount {
 	private double balance; // Hold the amount in the account

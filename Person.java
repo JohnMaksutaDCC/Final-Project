@@ -1,6 +1,10 @@
 /**
  * 
  * @author John Maksuta
+ * @course CPS231-610
+ * @Instructor Dr. Tankeh
+ * @since 05/01/2022
+ * @purpose - This is the base class for the Employee class.
  *
  */
 public class Person {
