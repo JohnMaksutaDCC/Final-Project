@@ -17,10 +17,18 @@ public class EmployeeBank extends Employee {
 	 */
 	private BankAccount bankAccount;
 
+	/**
+	 * Gets the instance of the BankAccount.
+	 * @return - an instance of the BankAccount.
+	 */
 	public BankAccount getBankAccount() {
 		return bankAccount;
 	}
 
+	/**
+	 * Sets the instance of the BankAccount.
+	 * @param bankAccount - The instance of the BankAccount to set.
+	 */
 	public void setBankAccount(BankAccount bankAccount) {
 		this.bankAccount = bankAccount;
 	}
@@ -31,6 +39,7 @@ public class EmployeeBank extends Employee {
 
 	public EmployeeBank() {
 		super();
+		this.bankAccount = new BankAccount(0);
 	}
 
 	public EmployeeBank(int employeeNumber, int accountNumber, String firstName,
